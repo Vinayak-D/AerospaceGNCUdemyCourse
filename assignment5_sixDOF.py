@@ -10,6 +10,8 @@ d2r = np.deg2rad
 
 def fdm_callback(fdm_data, event_pipe):
     global i
+    global lat, lon, height, phi, theta, psi, alpha, beta, u, v, w
+    global elevR, canard, rudder, flapL, flapR
     #position and orientation
     fdm_data.lat_rad = lat[i]
     fdm_data.lon_rad = lon[i]

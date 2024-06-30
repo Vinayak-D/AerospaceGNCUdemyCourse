@@ -9,6 +9,7 @@ i = 0
 
 def fdm_callback(fdm_data, event_pipe):
     global i
+    global latValues, lonValues, hvalues, phivalues, thvalues, psivalues
     #position and orientation
     fdm_data.lat_rad = latValues[i]
     fdm_data.lon_rad = lonValues[i]
