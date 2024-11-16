@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+
+	<fx>
+		<!-- Engines -->
+		<engine-jet>
+			<name>engine-jet</name>
+			<path>Aircraft/HL21/Sounds/main.wav</path>
+			<mode>looped</mode>
+
+		</engine-jet>
+	
+	</fx>
+
+</PropertyList>
